@@ -1,0 +1,154 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5vh;
+
+}
+
+img {
+    height: 25vh;
+    width: fit-content;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.card1,
+.card2,
+.card3 {
+    box-sizing: border-box;
+    border: 2px solid rgb(241, 80, 107);
+    border-radius: 5%;
+    background-color: rgb(172, 33, 33);
+    color: white;
+    height: 50vh;
+    width: 20%;
+    margin-bottom: 5vh;
+}
+
+#in1,
+#in2,
+#in3 {
+    margin-inline: 8vh;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: large;
+    justify-content: space-around;
+}
+
+.recipie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: darkgrey;
+    height: 40vh;
+    margin: 4vh;
+    margin-bottom: 5vh;
+}
+
+#inputs {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin: 5vh;
+}
+
+#Select {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    margin: 5vh;
+}
+
+nav {
+    background-color: rgb(172, 33, 33);
+    height: 10vh;
+    text-align: left;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    color: white;
+}
+
+h2 {
+    color: rgb(172, 33, 33);
+}
+
+.main {
+    background-color: white;
+    margin: 30px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    box-shadow: grey;
+    justify-content: center;
+    text-align: center;
+    height: 180vh;
+
+}
+
+button {
+    background-color: rgb(172, 33, 33);
+    color: white;
+}
+
+table {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+table th {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    /* background-color: #fff; */
+    border: thin solid #d4d4d4;
+}
+
+table td {
+    padding: 10px;
+    border: thin solid #d4d4d4;
+    width: 18%;
+    text-align: center;
+    background-color: #fff;
+}
+table img {
+    width: 70%;
+}
+
+table td.total-price {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table a {
+    text-decoration: none;
+    color: darkred;
+    background-color: #ffecef;
+    padding: 10px 15px;
+}
+
+table a:active {
+    background-color: #ccf4d6;
+    color: green;
+}
+
+table select {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: thin solid #d4d4d4;
+    background-color: transparent;
+}
+
+table select:focus {
+    outline: none;
+}
